@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gayathri&display=swap');
+
+header#cabecalho {
+    position: relative;
+    left: 70px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: rgba(0, 0, 0, 1);
+
+}
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+html { 
+    scroll-behavior: smooth; 
+}
+
+div#interface {
+    width: 800px;
+    background-color: white;
+    margin: -20px auto 0px auto;
+    padding: 10px;
+    
+}
+
+div#teste {
+    display: block;
+    width: 400px;
+}
+
+
+
+
+
+nav#menu {
+    position: relative;
+    display: block;
+    width: 700px;
+    left: 50px;
+    box-shadow: 1px 1px 4px rgb(0, 0, 0);
+    padding: 0px;
+}
+
+nav#menu ul {
+    list-style: none;
+    
+    
+}
+
+nav#menu li {
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+    font-size: 13pt;
+    transition: color 1s;
+    
+    
+    
+}
+
+nav#menu li:hover {
+    background-color: #d11c2b;
+    color: white;
+    margin:  20px;
+    padding: 10px;
+}
+
+img#banner {
+    width: 800px;
+    margin-bottom: 200px;
+    margin-top: 20px;
+    
+}
+
+img#insta {
+    opacity: 1;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    bottom: 50px;
+    left: 270px;
+}
+
+img#link {
+    opacity: 1;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    bottom: 50px;
+    left: 300px;
+}
+
+img#face {
+    opacity: 1;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    bottom: 50px;
+    left: 340px;
+}
+
+img#face:hover, img#link:hover, img#insta:hover {
+    opacity: 0.7;
+}
+
+img#cont {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    bottom: 100px;
+    left: 100px;
+    
+}
+
+h1#tit {
+    position: absolute;
+    font-size: 24px;
+    color: black;
+    font-family: Arial, sans-serif;
+    bottom: 60px;
+    left: 200px;
+    
+}
+
+h1#tit02 {
+    position: absolute;
+    font-size: 24px;
+    color: black;
+    font-family: Arial, sans-serif;
+    bottom: 60px;
+    left: 530px;
+    
+}
+
+h2#tit03 {
+    position: absolute;
+    font-size: 13px;
+    color: black;
+    font-family: Arial, sans-serif;
+    bottom: 5px;
+    left: 440px;
+    
+}
+
+img#fone {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    bottom: 100px;
+    left: 300px;
+}
+
+img#artigo {
+    position: relative;
+    left: 100px;
+}
+
+img#logo {
+    border-right: 1px solid rgba(245, 64, 51, 0.7);
+}
+
+article h1 {
+    font-family: 'Gayathri', sans-serif;
+    font-size: 30pt;
+    color: #f79e05;
+    text-align: center       
+}
+
+article h2 {
+    font-family: 'Gayathri', sans-serif;
+    font-size: 13pt;
+    color: #f79e05;
+    text-align: center;
+}
+
+article {
+    border-top: 1px solid rgba(0, 0, 0, .4);
+    margin-bottom: 50px;    
+}
+
+article p {
+    text-align: center;
+    font-size: 13pt;
+    font-family: Arial, sans-serif;
+}
+
+
+
+aside#right02 {
+    display: block;
+    width: 400px;
+   
+    
+      
+}
+
+aside#right02 p {
+    text-align: left;
+}
+
+article#contato {
+    text-align: center;
+    width: 800px;
+}
+
+footer#rodape {
+    border-top: 1px solid rgba(0, 0, 0, .4);
+}
+
+footer#rodape p {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.gallery-container {
+    width: 90%;
+    position: relative;
+    margin: 0 5%;
+    background: #333;
+    padding: 2px;
+  }
+    @media (min-width: 480px) {
+        .gallery-container {
+          width: 800px;
+          margin: auto;
+        }
+    }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    background-color: rgba(0,0,0,0.1);
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .imgslide {
+    width: 100%;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: black;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  @media (max-width: 768px) {
+    .numbertext {
+      top: 15px;
+    }
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
